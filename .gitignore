@@ -1,0 +1,22 @@
+# Sensitive credentials & environment variables
+.env
+.env.*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Local databases & media
+*.sqlite3
+db.sqlite3
+media/
+
+# IDE files
+.idea/
+.vscode/
